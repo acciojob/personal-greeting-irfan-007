@@ -10,7 +10,7 @@ const App = () => {
         type="text"
         onChange={(e) => setText("Hello " + e.target.value + "!")}
       />
-      {text}
+      <p>{text}</p>
     </div>
   );
 };
