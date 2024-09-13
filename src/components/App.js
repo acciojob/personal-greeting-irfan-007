@@ -6,7 +6,10 @@ const App = () => {
   return (
     <div>
       Enter your name:
-      <input type="text" onChange={(e) => setText(e.target.value)} />
+      <input
+        type="text"
+        onChange={(e) => setText("Hello " + e.target.value + "!")}
+      />
       {text}
     </div>
   );
